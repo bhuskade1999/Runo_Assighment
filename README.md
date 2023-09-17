@@ -25,7 +25,6 @@
  ##
 
 
-
 ### Teck Stack :
  - NodeJs
  - Express
@@ -33,24 +32,21 @@
  
  ##
 
-
- 
 ### Model :
  - UserModel
  - AdminModel
  - SlotCreationModel
- - VaccineRegistrationMode
+ - VaccineRegistrationModeL
  ##
-
 
  ## API :
 1)  POST - api/user/register : this api contain create operation where user can register himself with given details
-2)  Post - api/user/login : user can login with given details like phone number and password  we have useed jwt for authorisation and authentication.
+2)  POST - api/user/login : user can login with given details like phone number and password  we have useed jwt for authorisation and authentication.
 3)  POST - api/user/registerVaccine  : user can check available slot and after that they can book thier appointment for vaccination
 4)  PUT - api/user/updateSlot - user can also able to update r change the slot date and time but only before completing 24 hour
 5)  GET - api/user/availableSlot - with this api it can find all the available slot for user
 6)  POST - api/admin/login - this api for only admin and admin can login so he can check further operations
-7)  post - api/admin/createSlot -  in this api admin can open  vaccine slot for an particular time
+7)  POST - api/admin/createSlot -  in this api admin can open  vaccine slot for an particular time
 8)  GET - api/admin/totalRegistered - in this api admin can find out total registered user for vaccination and also he can filtered the user according to the cryteria.
    
 
